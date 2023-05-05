@@ -11,4 +11,16 @@
     -README.md
     -style.css
 
-    
+-Navbar
+    -header tag
+    -alle Elemente rein
+
+-Css file
+    - :Root variabeln und voreinstellungen
+    - classes für wiederhollende Formen
+    - Spezifische Classes für den Header
+
+-Navigation
+    -different svg imports
+    -hover events
+    sizing etc

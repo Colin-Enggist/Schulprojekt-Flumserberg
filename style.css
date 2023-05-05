@@ -1,0 +1,100 @@
+:root {
+
+  /* Farben */
+  --primary: #DA001C;
+  --primaryDark: #DA001C;
+  --secondary: #E4E8EC;
+  --textcolor: #2D343E;
+  --textwhite: #ffffff;
+
+  /* Fontsizes */
+  --paragraph: 1em; /* 1 em = 16px */
+  --subtext: 0.8em;
+  --navtext: 2em;
+
+  /* Sections and main Element vars */
+  --navheight: 6em;
+  --navtagwidth: 24em;
+  --logowidth: 12em;
+  --mountainwidth: 10em;
+}
+
+
+ 
+/* Generall Elements and text */
+
+.logo {
+  width: var(--logowidth);
+  margin-left: 2em;
+}
+
+/* header */
+
+  /* Navbar */
+  .navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: end;
+    height: var(--navheight);
+    width: 100%;
+  }
+
+  .redrectNav {
+   width: 20em;
+    height: var(--navheight);
+    background-image: url(./assets/rectangleNav.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .redCont {
+    height: var(--navheight);
+    width: 10em;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: var(--navtagwidth);
+  }
+
+  .navanchor {
+    font-size: var(--navtext);
+    color: var(--textcolor);
+  }
+
+  .navanchor:hover {
+    cursor: pointer;
+  }
+
+  .navanchorwhite {
+    font-size: var(--navtext);
+    color: var(--textwhite);
+    margin-bottom: 0.75em;
+  }
+  
+  .navanchorwhite:hover {
+    cursor: pointer;
+  }
+  .mountains {
+    width: var(--mountainwidth);
+  }
+
+  .korr {
+    font-size: var(--subtext);
+  }
+
+  .korrBold {
+    font-size: var(--subtext);
+    font-weight: bold;
+  }
+
