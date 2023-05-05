@@ -24,3 +24,7 @@
     -different svg imports
     -hover events
     sizing etc
+
+-Font einbinden, Roboto / Roboto Condensed
+
+-Zindex Navbar und main/ start section

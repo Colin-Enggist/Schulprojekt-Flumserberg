@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@900&display=swap');
+
 :root {
+
+  font-family: 'Roboto Condensed', sans-serif;
 
   /* Farben */
   --primary: #DA001C;
@@ -7,10 +11,12 @@
   --textcolor: #2D343E;
   --textwhite: #ffffff;
 
-  /* Fontsizes */
+  /* Fonts */
   --paragraph: 1em; /* 1 em = 16px */
   --subtext: 0.8em;
   --navtext: 2em;
+  --title: 'Roboto', sans-serif;
+  --standart: 'Roboto Condensed', sans-serif;
 
   /* Sections and main Element vars */
   --navheight: 6em;
@@ -19,6 +25,10 @@
   --mountainwidth: 10em;
 }
 
+body {
+  width: 100vw;
+  margin: 0;
+}
 
  
 /* Generall Elements and text */
@@ -38,11 +48,16 @@
     align-items: end;
     height: var(--navheight);
     width: 100%;
+    background-color: var(--textwhite);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
   }
 
   .redrectNav {
-   width: 20em;
-    height: var(--navheight);
+    width: 21em;
+    height: 100%;
     background-image: url(./assets/rectangleNav.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -52,7 +67,7 @@
   }
 
   .redCont {
-    height: var(--navheight);
+    height: 100%;
     width: 10em;
     background-color: var(--primary);
     display: flex;
@@ -70,6 +85,7 @@
   .navanchor {
     font-size: var(--navtext);
     color: var(--textcolor);
+    font-weight: 700;
   }
 
   .navanchor:hover {
@@ -80,8 +96,9 @@
     font-size: var(--navtext);
     color: var(--textwhite);
     margin-bottom: 0.75em;
+    font-weight: 700;
   }
-  
+
   .navanchorwhite:hover {
     cursor: pointer;
   }
@@ -98,3 +115,12 @@
     font-weight: bold;
   }
 
+  /*main*/
+  /* section start*/
+
+  .start {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--secondary);
+    position: relative;
+  }
