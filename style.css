@@ -15,8 +15,11 @@
   --paragraph: 1em; /* 1 em = 16px */
   --subtext: 0.8em;
   --navtext: 2em;
-  --title: 'Roboto', sans-serif;
-  --standart: 'Roboto Condensed', sans-serif;
+  --title: 2.5em;
+
+  --fontlead: 'Roboto', sans-serif;
+
+  --fontstandart: 'Roboto Condensed', sans-serif;
 
   /* Sections and main Element vars */
   --navheight: 6em;
@@ -36,6 +39,21 @@ body {
 .logo {
   width: var(--logowidth);
   margin-left: 2em;
+}
+
+.titleWhite {
+  font-size: var(--title);
+  color: var(--textwhite);
+  font-family: var(--fontlead);
+}
+
+.korr {
+  font-size: var(--subtext);
+}
+
+.korrBold {
+  font-size: var(--subtext);
+  font-weight: bold;
 }
 
 /* header */
@@ -106,15 +124,6 @@ body {
     width: var(--mountainwidth);
   }
 
-  .korr {
-    font-size: var(--subtext);
-  }
-
-  .korrBold {
-    font-size: var(--subtext);
-    font-weight: bold;
-  }
-
   /*main*/
   /* section start*/
 
@@ -123,4 +132,22 @@ body {
     height: 100vh;
     background-color: var(--secondary);
     position: relative;
+  }
+
+  .störer {
+    background-image: url(./assets/störerRot.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 699px;
+    height: 108px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .störertext {
+    margin-left: 2.5em;
   }
