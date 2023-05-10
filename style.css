@@ -42,6 +42,11 @@ img {
  
 /* Generall Elements and text */
 
+.contentwrapper {
+  width: var(--contentwidth);
+  margin: 0 auto;
+}
+
 .logo {
   width: var(--logowidth);
   margin-left: 2em;
@@ -287,15 +292,17 @@ img {
     height: 100vh;
     width: 100%;
     margin-top: 1rem;
+    position: relative;
   }
 
   .footerkontaktcont {
     max-width: var(--contentwidth);
     margin: 0 auto;
-    padding-top: 8rem;
+    padding-top: 15rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    margin-bottom: 7rem;
   }
 
   .footerktktbox {
@@ -336,4 +343,52 @@ img {
     width:  auto;
     margin-right: 1rem;
    
+  }
+
+  .socialcont {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    height: 3rem;
+    justify-content: space-around;
+  }
+
+  .socials {
+    height: 100%;
+    width: auto;
+
+  }
+
+  .socialbtn:hover {
+    cursor: pointer;
+  }
+
+  .footerend {
+    width: 100%;
+    min-height: 4rem;
+    background-color: var(--secondary);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .impressumcont {
+    width: var(--contentwidth);
+    min-height: 4rem;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .impressum {
+    font-size: var(--subtext);
+
+  }
+
+  .impressum:hover {
+    cursor: pointer;
   }

@@ -34,3 +34,7 @@
 -section Restaurants abgeschlossen class karussel erstellt
 
 -section sportgeschäft und Kurse abgeschlossen Bildercont und platzhalter
+
+-finished footer kontakt angaben
+
+-home bis auf Links und Bilder abgeschlossen
