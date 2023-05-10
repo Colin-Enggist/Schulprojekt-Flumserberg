@@ -32,3 +32,5 @@
 -Section Winter Erleben abgeschlossen neue Textclasses, cont etc.
 
 -section Restaurants abgeschlossen class karussel erstellt
+
+-section sportgeschäft und Kurse abgeschlossen Bildercont und platzhalter
