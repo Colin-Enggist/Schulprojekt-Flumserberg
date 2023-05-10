@@ -28,3 +28,7 @@
 -Font einbinden, Roboto / Roboto Condensed
 
 -Zindex Navbar und main/ start section
+
+-Section Winter Erleben abgeschlossen neue Textclasses, cont etc.
+
+-section Restaurants abgeschlossen class karussel erstellt
