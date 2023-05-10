@@ -198,6 +198,7 @@ img {
     color: var(--textcolor);
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
   }
 
   .navanchor:hover {
@@ -210,6 +211,7 @@ img {
     color: var(--textwhite);
     margin-bottom: 0.75em;
     font-weight: 700;
+    text-decoration: none;
   }
 
   .navanchorwhite:hover {
@@ -386,9 +388,48 @@ img {
 
   .impressum {
     font-size: var(--subtext);
-
+    color: var(--textcolor);
+    text-decoration: none;
+    margin: 0;
   }
 
   .impressum:hover {
     cursor: pointer;
+    
+  }
+
+  /* events*/
+
+  .listsection {
+    width: 100%;
+ 
+    padding-top: 12rem;
+  }
+
+  .eventcard {
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border: var(--textcolor) 3px solid;
+  }
+
+  .eventimg {
+    width: 40%;
+    height: 100%;
+    margin: 0;
+    background-color: #DA001C;
+  }
+
+  .eventtextcont {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+   
+    display: flex;
+    flex-flow: column nowrap;
+
   }

@@ -38,3 +38,13 @@
 -finished footer kontakt angaben
 
 -home bis auf Links und Bilder abgeschlossen
+
+-starte an Events
+
+-nav links einfügen event und home
+
+-nav in events einfügen wie auch erneut genutzte classes
+
+-social links eingefügt
+
+-sämtliche footer links funktionsfähig
