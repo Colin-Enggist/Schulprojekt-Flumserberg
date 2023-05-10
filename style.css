@@ -12,10 +12,11 @@
   --textwhite: #ffffff;
 
   /* Fonts */
-  --paragraph: 1em; /* 1 em = 16px */
-  --subtext: 0.8em;
-  --navtext: 2em;
-  --title: 2.5em;
+  --paragraph: 1rem; /* 1 em = 16px */
+  --pplus: 1.5rem;
+  --subtext: 0.8rem;
+  --leadtext: 2rem;
+  --title: 2.5rem;
 
   --fontlead: 'Roboto', sans-serif;
 
@@ -54,6 +55,85 @@ body {
 .korrBold {
   font-size: var(--subtext);
   font-weight: bold;
+}
+
+.titlered {
+  font-size: var(--title);
+  color: var(--primary);
+  font-family: var(--fontlead);
+}
+
+.sektion {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.location {
+    background-image: url(./assets/locationbackground.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 699px;
+    height: 108px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+
+.locroot {
+  color: var(--textwhite);
+  font-family: var(--fontlead);
+  font-size: var(--pplus);
+  text-transform: uppercase;
+}
+
+.loctext {
+  color: var(--textwhite);
+  font-family: var(--fontlead);
+  font-size: var(--leadtext);
+  text-transform: uppercase;  
+}
+
+.leadp {
+  color: var(--textcolor);
+  font-family: var(--fontlead);
+  font-size: var(--pplus);  
+}
+
+.leadred {
+  color: var(--primary);
+  font-family: var(--fontlead);
+  font-size: var(--leadtext);
+}
+
+.basetext {
+  color: var(--textcolor);
+  font-family: var(--fontstandart);
+  font-size: var(--paragraph);
+}
+
+.textcentered {
+  text-align: center;
+}
+
+
+.sectiontextbox {
+  width: 68%;
+  left: 16%;
+  top: 130px;
+  position: absolute; /* normaly should work without changing position to absolute */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+
+}
+
+.adtextbox {
+  width: 100%;
+  margin-bottom: 4rem;
 }
 
 /* header */
@@ -101,17 +181,19 @@ body {
   }
 
   .navanchor {
-    font-size: var(--navtext);
+    font-size: var(--pplus);
     color: var(--textcolor);
     font-weight: 700;
+    text-transform: uppercase;
   }
 
   .navanchor:hover {
     cursor: pointer;
+    text-transform: uppercase;
   }
 
   .navanchorwhite {
-    font-size: var(--navtext);
+    font-size: var(--leadtext);
     color: var(--textwhite);
     margin-bottom: 0.75em;
     font-weight: 700;
@@ -127,14 +209,7 @@ body {
   /*main*/
   /* section start*/
 
-  .start {
-    width: 100%;
-    height: 100vh;
-    background-color: var(--secondary);
-    position: relative;
-  }
-
-  .störer {
+  .störerred {
     background-image: url(./assets/störerRot.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -149,5 +224,19 @@ body {
   }
 
   .störertext {
-    margin-left: 2.5em;
+    margin-left: 3em;
   }
+
+  /* section winter Erleben */
+
+  .loccont {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 1rem;
+  }
+
+  /* section Restaurants */
