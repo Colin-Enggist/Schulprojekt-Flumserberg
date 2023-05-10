@@ -27,6 +27,8 @@
   --navtagwidth: 24em;
   --logowidth: 12em;
   --mountainwidth: 10em;
+  --locwidth: 45rem;
+  --contentwidth: 1080px;
 }
 
 body {
@@ -34,6 +36,9 @@ body {
   margin: 0;
 }
 
+img {
+  object-fit: contain;
+}
  
 /* Generall Elements and text */
 
@@ -67,6 +72,7 @@ body {
   width: 100%;
   height: 100vh;
   position: relative;
+  margin-top: 0;
 }
 
 .location {
@@ -137,7 +143,7 @@ body {
   width: 100%;
   margin-bottom: 4rem;
 }
-
+/* home */
 /* header */
 
   /* Navbar */
@@ -232,11 +238,11 @@ body {
   /* section winter Erleben */
 
   .loccont {
-    width: 70%;
-    margin: 0 auto;
+    width: var(--locwidth);
+    margin: 0;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: end;
     padding-bottom: 1rem;
   }
@@ -272,4 +278,62 @@ body {
     width: 25rem;
     height: 20rem;
     background-color: var(--secondary);
+  }
+
+  /* footer */
+
+  footer {
+    background-color: var(--primaryDark);
+    height: 100vh;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .footerkontaktcont {
+    max-width: var(--contentwidth);
+    margin: 0 auto;
+    padding-top: 8rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .footerktktbox {
+    min-width: 10rem;
+    margin: 0 ;
+    display: flex;
+    flex-flow: column nowrap;
+
+  }
+
+  .departement {
+    font-family: var(--fontlead);
+    text-transform: capitalize;
+    color: var(--textwhite);
+    font-size: var(--paragraph);
+  }
+
+  .footertext {
+    font-family: var(--fontstandart);
+    color: var(--textwhite);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: var(--paragraph);
+  }
+
+  .icontextcont {
+    display: flex;
+    flex-flow:row nowrap;
+    height: 1.8rem;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .icon {
+    height: 100%;
+    width:  auto;
+    margin-right: 1rem;
+   
   }
