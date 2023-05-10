@@ -402,7 +402,6 @@ img {
 
   .listsection {
     width: 100%;
- 
     padding-top: 12rem;
   }
 
@@ -428,8 +427,10 @@ img {
     width: 50%;
     height: 100%;
     margin: 0;
-   
     display: flex;
     flex-flow: column nowrap;
-
   }
+
+  /* Unterkünfte */
+
+  

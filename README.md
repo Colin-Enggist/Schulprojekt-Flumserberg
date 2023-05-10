@@ -48,3 +48,5 @@
 -social links eingefügt
 
 -sämtliche footer links funktionsfähig
+
+-Unterkünfte integrieren und vorhandener code kopieren
