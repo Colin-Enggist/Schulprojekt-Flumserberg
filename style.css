@@ -122,10 +122,23 @@ img {
   font-size: var(--leadtext);
 }
 
+.leadwhite {
+  color: var(--textwhite);
+  font-family: var(--fontlead);
+  font-size: var(--leadtext);
+}
+
 .basetext {
   color: var(--textcolor);
   font-family: var(--fontstandart);
   font-size: var(--paragraph);
+}
+
+.basetextwhite {
+  color: var(--textwhite);
+  font-family: var(--fontstandart);
+  font-size: var(--paragraph);
+  font-weight: bold;
 }
 
 .textcentered {
@@ -433,4 +446,57 @@ img {
 
   /* Unterkünfte */
 
-  
+  .unterkunftparagraph {
+    width: 100%;
+    margin-bottom: 8rem;
+  }
+
+  .unterkunftcard {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+
+  .unterkunfttext {
+    height: 70%;
+    width: 45%;
+    background-color: var(--primaryDark);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+
+  .unterkunftbild {
+    height: 100%;
+    width: 55%;
+    background-color: gray;
+  }
+
+  .unterkunftbtn {
+    width: 80%;
+    height: 3rem;
+    border: var(--textwhite) 2px solid;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+
+  .unterkunftbtn:hover {
+    cursor: pointer;
+  }
+
+  .unterkunftbtntext {
+    font-family: var(--fontlead);
+    font-size: var(--paragraph);
+    color: var(--textwhite);
+    text-transform: capitalize;
+    text-decoration: none;  
+    border: none;
+    text-align: center;
+  }
