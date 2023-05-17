@@ -81,7 +81,7 @@ img {
 }
 
 .location {
-    background-image: url(./assets/locationbackground.svg);
+    background-image: url(./assets/imgs/graphics/locationbackground.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 70%;
@@ -182,7 +182,7 @@ img {
   .redrectNav {
     width: 21em;
     height: 100%;
-    background-image: url(./assets/rectangleNav.svg);
+    background-image: url(./assets/imgs/graphics/rectangleNav.svg);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -238,7 +238,7 @@ img {
   /* section start*/
 
   .störerred {
-    background-image: url(./assets/störerRot.svg);
+    background-image: url(./assets/imgs/graphics/störerRot.svg);
     background-repeat: no-repeat;
     background-size: contain;
     width: 699px;
@@ -272,7 +272,7 @@ img {
   .karrusellrest {
     width: 100%;
     height: 60%;
-    background-image: url(./assets/karrusellrest.svg);
+    background-image: url(./assets/imgs/graphics/karrusellrest.svg);
     background-repeat: no-repeat;
     background-size: auto;
     position: absolute;
