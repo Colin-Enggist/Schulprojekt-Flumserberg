@@ -35,9 +35,36 @@
   </header>
   <main>
     <section class="sektion">
-      <div class="kontaktform">
-        
-      </div>
+ 
+        <form class="kontaktform" >
+        <div class="selectcont">
+          <label for="departement">Wählen Sie eine Kontaktstelle</label>
+          <select name="departement" required> 
+            <option></option>
+            <option> Flumser Bergbahnen </option>
+            <option> Heidiland Tourismus </option>
+            <option> Schweizer Ski- und Snowboardschule</option>
+          </select>
+        </div>
+        <div class="inputcont">
+          <label for="name">Vorname</label>
+          <input required name="name" type="text">
+        </div>
+        <div class="inputcont">
+          <label for="nachname">Nachname</label>
+          <input required name="nachname" type="text">
+        </div>  
+        <div class="inputcont">
+          <label for="E-mail">E-Mail</label>
+          <input required name="E-mail" type="email">
+        </div>
+        <div class="textcont">
+          <label for="nachricht">Anliegen</label>
+          <textarea required name="nachricht"></textarea>
+        </div> 
+          <button type="submit">Absenden</button>
+        </form>
+     
       <div class="greyadressbox">
         <div class="adressbox">
           <p class="adress">
