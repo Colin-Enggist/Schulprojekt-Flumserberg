@@ -29,6 +29,7 @@
   --mountainwidth: 10em;
   --locwidth: 45rem;
   --contentwidth: 1080px;
+  --formwidth: 950px;
 }
 
 body {
@@ -499,4 +500,43 @@ img {
     text-decoration: none;  
     border: none;
     text-align: center;
+  }
+
+  /* Kontakt */
+
+  .greyadressbox {
+    width: 10rem;
+    padding: 1rem 0;
+    background-color: var(--secondary);
+    position: absolute;
+    right: 0;
+    top: var(--navheight);
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .adressbox {
+    width: 10rem;
+    margin: 1rem 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .adress {
+    font-family: var(--fontstandart);
+    font-size: var(--subtext);
+    margin: 0.25rem 0;
+    text-align: center;
+  }
+
+  .kontaktform {
+    width: var(--formwidth);
+    height: 40rem;
+    background-color: var(--secondary);
+    border-radius: 2rem;
+    position: absolute;
+    bottom: 1rem;
+    left: calc(100vw*0.5 - var(--formwidth)*0.5);
   }
