@@ -599,6 +599,14 @@ img {
   font-size: var(--paragraph);
  }
 
+ .kontaktform button:hover{
+  background-color: transparent;
+  color: var(--primary);
+  border: var(--primary) 2px solid;
+ }
+
  .kontaktform button:active{
   background-color: var(--primaryDark);
+  border: none;
+  color: var(--textwhite);
  }
