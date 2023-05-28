@@ -292,9 +292,8 @@ nav {
 
 .skimgbox {
   width: 100%;
-  height: 20rem;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-around;
 }
 
@@ -306,6 +305,7 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 3rem
 }
 
 /* footer */
@@ -428,9 +428,8 @@ footer {
   margin: 0 auto;
   margin-bottom: 5rem;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
-
   border-radius: 1rem;
   overflow: hidden;
   background-color: var(--secondary);
@@ -452,7 +451,7 @@ footer {
 }
 
 .eventtextcont {
-  width: 50%;
+  width: 47%;
   height: 100%;
   margin: 0;
   padding: 0 2rem;
@@ -472,7 +471,7 @@ footer {
   height: 400px;
   margin: 0 auto;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap-reverse;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8rem;
@@ -492,7 +491,6 @@ footer {
 .unterkunftbild {
   height: 100%;
   width: 55%;
-  background-color: gray;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -635,7 +633,7 @@ footer {
   :root {
     --formwidth: 700px;
     --mountainwidth: 7rem;
-    --contentwidth: 1028px;
+    --contentwidth: 980px;
   }
 
   .kontaktform {
@@ -653,9 +651,10 @@ footer {
 
 @media screen and (max-width: 1028px) {
   :root {
-    --contentwidth: 720px;
+    --contentwidth: 640px;
     --logowidth: 7rem;
     --navtagwidth: 19rem;
+    --formwidth: 450px;
 
     --pplus: 1.2rem;
     --leadtext: 1.5rem;
@@ -680,5 +679,83 @@ footer {
 
   .location {
     width: 100%;
+  }
+
+  .restImgCont {
+    overflow: visible;
+  }
+
+
+  .eventcard {
+    width: 70%;
+    height: auto;
+    padding-bottom: 1rem;
+  }
+
+  .eventimgcont {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .eventimg {
+    width: 100%;
+    height: auto;
+  }
+
+  .eventtextcont {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .unterkunftcard {
+    width: auto;
+    height: auto;
+  }
+
+  .unterkunftbild {
+    height: 270px;
+    width: 400px;
+    margin-left: auto;
+  }
+
+  .footerkontaktcont{
+    flex-flow: column nowrap;
+    padding-top: 5rem;
+    height: 75vh;
+    margin: 0;
+  }
+
+  .footerktktbox {
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  .greyadressbox {
+    display: none;
+  }
+
+  .kontaktform {
+    height: auto;
+    padding: 0 3rem 1.5rem 1.5rem;
+
+  }
+
+  .kontaktform button {
+    margin-top: 2rem;
+    margin-left: auto;
+  }
+
+  .kontaktform .inputcont {
+    margin-bottom: 1rem;
+  }
+
+  .kontaktform .selectcont{
+    margin-bottom: 1rem;
   }
 }
