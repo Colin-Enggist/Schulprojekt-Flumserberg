@@ -512,6 +512,10 @@ img {
     height: 100%;
     width: 55%;
     background-color: gray;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .unterkunftbtn {
