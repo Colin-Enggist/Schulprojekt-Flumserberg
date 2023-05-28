@@ -35,6 +35,7 @@
 body {
   width: 100vw;
   margin: 0;
+  overflow-x: hidden;
 }
 
 img {
@@ -220,6 +221,7 @@ img {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
+    margin-bottom: 1.2rem;
   }
 
   .navanchor:hover {
@@ -435,13 +437,23 @@ img {
     flex-flow: row nowrap;
     justify-content: space-between;
     border: var(--textcolor) 3px solid;
+    border-radius: 1rem;
+    overflow: hidden;
   }
 
   .eventimg {
-    width: 40%;
+    width: auto;
+    height: 100%;
+
+  }
+
+  .eventimgcont {
+    width: 45%;
     height: 100%;
     margin: 0;
-    background-color: #DA001C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
   }
 
@@ -449,8 +461,10 @@ img {
     width: 50%;
     height: 100%;
     margin: 0;
+    padding: 0 2rem;
     display: flex;
     flex-flow: column nowrap;
+   
   }
 
   /* Unterkünfte */
