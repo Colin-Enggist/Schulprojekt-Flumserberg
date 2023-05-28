@@ -30,6 +30,7 @@
   --locwidth: 45rem;
   --contentwidth: 1080px;
   --formwidth: 800px;
+  --minwidthtitelimg: 100vw;
 }
 
 body {
@@ -79,6 +80,7 @@ img {
   position: absolute;
   top: 0;
   z-index: -1;
+  min-width: var(--minwidthtitelimg);
 }
 
 .sektion {
@@ -279,15 +281,21 @@ img {
 
   /* section Restaurants */
 
-  .karrusellrest {
+  .gastroImg {
     width: 100%;
-    height: 60%;
-    background-image: url(./assets/imgs/graphics/karrusellrest.svg);
+    height: auto;
+    transform: rotate(-4deg) scale(1.2) translateY(100px);
+  }
+
+  .restImgCont {
+    width: 100%;
+    height: 55%;
     background-repeat: no-repeat;
     background-size: auto;
     position: absolute;
     bottom: 0;
     left: 0;
+    overflow: hidden;
   }
 
   /* section Sportgeschäfte und Kurse */
@@ -308,6 +316,10 @@ img {
     width: 25rem;
     height: 20rem;
     background-color: var(--secondary);
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   /* footer */
