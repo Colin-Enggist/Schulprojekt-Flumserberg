@@ -763,9 +763,18 @@ footer {
 @media screen and (max-width: 720px){
   :root{
     --logowidth: 6rem;
-    --navtagwidth: 18rem;
+    --navtagwidth: 16rem;
     --navheight: 6.5rem;
+    --locwidth: 80%;
 
+    --pplus: 1rem;
+    --leadtext: 1.2rem;
+    --title: 1.5rem;
+    --paragraph: 1rem;
+    --subtext: 0.8rem;
+
+    --contentwidth: 375px;
+    --formwidth: 85%;
   }
   
   
@@ -793,7 +802,7 @@ footer {
     height: 3rem;
     background-color: transparent;
     width: auto;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
   }
 
   .navanchorwhite{
@@ -803,5 +812,119 @@ footer {
 
   .navanchor{
     margin: 0;
+  }
+
+  .störerred {
+    justify-content: end;
+    align-items: end;
+  }
+
+  .störertext {
+    margin-right: 0.8rem;
+  }
+
+  .location {
+    margin-bottom: 1.5rem;
+  }
+
+  .loctext {
+    width: 11rem;
+  }
+
+  .sectiontextbox {
+    width: 80%;
+  }
+
+  .adtextbox {
+    margin-bottom: 1rem;
+  }
+
+  .gastroImg {
+    transform: rotate(-4deg) scale(1.1);
+  }
+
+  .skimgcont {
+    width: 350px;
+    margin-bottom: 1.5rem;
+  }
+
+  footer {
+    background-color: var(--primaryDark);
+    height: 70rem;
+    padding-top: 1rem;
+  }
+
+  .footerkontaktcont {
+    height: auto;
+  }
+
+  .footerktktbox {
+    margin-bottom: 2rem;
+  }
+
+  .impressum {
+    width: 100%;
+    text-align: center;
+  }
+
+  .impressumcont {
+    height: 12rem;
+  }
+
+  .listsection {
+    padding-top: 2rem;
+  }
+
+  .unterkunftparagraph {
+    margin-bottom: 4rem;
+  }
+
+  .eventcard {
+    margin-bottom: 4rem;
+    width: 80%;
+  }
+
+  .unterkunftcard {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 4rem;
+    align-items: flex-end;
+  }
+
+  .unterkunftbild {
+    height: 47%;
+    width: 78%;
+    margin-top: auto;
+  }
+
+  .unterkunfttext {
+    height: 40%;
+    width: 90%;
+    flex-flow: row nowrap;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
+
+  .unterkunfttext .leadwhite {
+    margin-bottom: auto;
+  }
+
+  .kontaktform {
+    padding: 1rem;
+  }
+
+  .kontaktform .inputcont {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  .kontaktform .selectcont {
+    margin-bottom: 2rem;
+  }
+
+  .kontaktform .textcont {
+    width: 90%;
+    margin-top: 2rem;
   }
 }
