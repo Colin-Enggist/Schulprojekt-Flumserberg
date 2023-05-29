@@ -489,8 +489,8 @@ footer {
 }
 
 .unterkunftbild {
-  height: 100%;
-  width: 55%;
+  height: 276px;
+  width: 408px;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -724,16 +724,22 @@ footer {
     margin-left: auto;
   }
 
+  footer {
+    background-color: var(--primaryDark);
+    height: 70rem;
+    padding-top: 1rem;
+  }
+
   .footerkontaktcont{
     flex-flow: column nowrap;
     padding-top: 5rem;
-    height: 75vh;
+    height: auto;
     margin: 0;
   }
 
   .footerktktbox {
     width: 280px;
-    margin: 0 auto;
+    margin: 0 auto 4rem auto;
   }
 
   .greyadressbox {
@@ -848,15 +854,7 @@ footer {
     margin-bottom: 1.5rem;
   }
 
-  footer {
-    background-color: var(--primaryDark);
-    height: 70rem;
-    padding-top: 1rem;
-  }
 
-  .footerkontaktcont {
-    height: auto;
-  }
 
   .footerktktbox {
     margin-bottom: 2rem;
